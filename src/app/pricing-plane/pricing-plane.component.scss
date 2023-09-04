@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.pricing-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.pricing-card h3 {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+}
+
+.pricing-card p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #337ab7;
+  text-align: center;
+}
+
+.pricing-card ul {
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .pricing-card {
+    width: 100%;
+  }
+}
+
+/* Add colorful styles for each card */
+.crypto {
+  background-color: #2ecc71;
+}
+
+.forex {
+  background-color: #e74c3c;
+}
+
+.crypto-forex {
+  background-color: #3498db;
+}
+
+.card-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #070606;
+  color: #333;
+}
+
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.pricing-card {
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.pricing-card h3 {
+  color: #337ab7;
+}
+
+.pricing-card p {
+  color: #666;
+}
+
+.pricing-card ul {
+  padding-left: 20px;
+  color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+  .pricing-card {
+    width: 100%;
+  }
+}
+
+/* Add colorful styles for each card */
+.pricing-card.crypt {
+  border-color: #ff6b6b;
+}
+
+.pricing-card.forex {
+  border-color: #3498db;
+}
+
+.pricing-card.crypto-forex {
+  border-color: #2ecc71;
+}
+
+.pricing-card .card-title {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+  margin: -20px -20px 20px -20px;
+  text-align: center;
+}
+
+.pricing-card .card-text {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.pricing-card ul li {
+  list-style-type: disc;
+}
+
+.pricing-card ul li:before {
+  content: "\2022";
+  color: #ff6b6b;
+  font-size: 1.2rem;
+  padding-right: 5px;
+}
+
+.buy-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-btn:hover {
+  background-color: #ff6b6b;
+}

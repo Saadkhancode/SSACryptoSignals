@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.container p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.link-section {
+  margin-top: 30px;
+}
+
+.link-section a {
+  color: #337ab7;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.link-section a:hover {
+  text-decoration: underline;
+}
+
+.disclaimer {
+  margin-top: 30px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.disclaimer p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.disclaimer h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.services-section {
+  margin-top: 30px;
+}
+
+.services-section p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.cancellation-section {
+  margin-top: 30px;
+}
+
+.cancellation-section p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.cancellation-section h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+body {
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.link-section h2,
+.disclaimer h3,
+.services-section h2,
+.cancellation-section h2 {
+  color: #333;
+}
+
+.link-section p,
+.disclaimer p,
+.services-section p,
+.cancellation-section p {
+  color: #666;
+}
+
+ul {
+  color: #666;
+}

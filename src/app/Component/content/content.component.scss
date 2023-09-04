@@ -1,0 +1,149 @@
+
+// .backgroundPic {
+//   background-image: url('../../../assets/wepik-export-20230727105658gSqZ.jpeg');
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center center;
+// }
+// h1{
+//   color : white;
+// }
+// p{
+//   color: white;
+// }
+// .lead{
+//   color:rgb(214, 195, 68)
+// }
+// .featurette{
+//   color: white;
+// }
+/* Styles for larger screens (desktop and above) */
+body {
+  background-color: #141415;
+}
+.aligment{
+  margin-left: auto;
+}
+// .container{
+  // background-color: #141415;
+  // margin: auto!important;;
+// }
+.backgroundPic {
+  background-image: url('../../../assets/wepik-export-20230727105658gSqZ.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  background-color: #343047;
+  padding: 5rem 0;
+}
+.align{
+  display: flex;
+  justify-content: space-around ;
+}
+
+.content{
+background-color: black;
+}
+
+.lastDev{
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color{
+  color:white
+}
+.goldColor{
+  color:rgb(120, 105, 22);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+}
+.blackgroundcolor {
+  background-color:  #343047;
+
+}
+
+.blackgroundcolor2 {
+  background-color: #000; /* Black background color */
+  color: #fff; /* White text color */
+  padding: 20px; /* Add padding for better readability */
+}
+
+.color {
+  color: #fff; /* White text color */
+}
+
+.text-color {
+  color: #f8f9fa; /* Light gray text color */
+}
+
+/* Custom styles for the heading's margin-top */
+.col-md-7.order-md-1 h2 {
+  margin-top: 21%;
+}
+
+.rounded-circle {
+  border: 5px solid #fff;
+}
+
+.featurette-heading {
+  color: #fff;
+}
+
+.text-muted {
+  color: #f8f9fa;
+}
+
+.col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.col-lg-4 h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+/* Media query for smaller screens (tablets and below) */
+
+.cover-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.lead {
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+@media (max-width: 576px) {
+  .content h1 {
+    font-size: 28px;
+  }
+}

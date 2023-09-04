@@ -9,6 +9,7 @@
         "@schematics/angular:component": {
           "style": "scss"
         }
+
       },
       "root": "",
       "sourceRoot": "src",
@@ -30,9 +31,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -100,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "fb796f96-9e19-496c-9d0a-adf255c849bc"
   }
 }
